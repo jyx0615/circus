@@ -9,16 +9,17 @@ import circus.animal.Duck;
 import circus.animal.Parrot;
 import circus.animal.Tiger;
 
+
 public class Circus {
     private static Animal[] animals = {
-        new Duck("Drake"),
-        new Parrot("Polly"),
-        new Tiger("Tai Lung")
+            new Duck("Drake"),
+            new Parrot("Polly"),
+            new Tiger("Tai Lung")
     };
     private static Equipment[] equipments = {
-        new Ladder(50),
-        new Cannon(5),
-        new Cannon(100)
+            new Ladder(50),
+            new Cannon(5),
+            new Cannon(100)
     };
 
     private static void makeAnimalsTalk() {
